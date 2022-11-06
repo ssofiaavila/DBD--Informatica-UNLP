@@ -12,6 +12,7 @@ Prácticas y material de diseño de bases de datos, cursada 2do semestre 2022- F
   * [Segunda parte](https://github.com/ssofiaavila/DBD--Informatica-UNLP/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%202-%20Segunda%20parte.pdf)
   
   </details>
+* [Práctica 3](https://github.com/ssofiaavila/DBD--Informatica-UNLP/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%203.pdf)
 
 
 ---
