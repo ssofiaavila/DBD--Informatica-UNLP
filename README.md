@@ -14,11 +14,6 @@ Prácticas y material de diseño de bases de datos, cursada 2do semestre 2022- F
   </details>
 * [Práctica 3](https://github.com/ssofiaavila/DBD--Informatica-UNLP/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%203.pdf)
 
-
----
-## Material ##
-* [Teorías](https://github.com/ssofiaavila/DBD--Informatica-UNLP/tree/main/Teor%C3%ADas)
-
 ---
 ## Probar álgebra relacional ##
 1) Crear datos para las tablas con [Mockaroo](https://www.mockaroo.com/) y guardarlos como .csv
@@ -39,3 +34,9 @@ Prácticas y material de diseño de bases de datos, cursada 2do semestre 2022- F
     ```Quilmes Oeste``` mal, tendria que ser ```'Quilmes Oste'```
   * __Mockaroo permite usar claves foráneas__, tutorial [acá](https://www.youtube.com/watch?v=S_oYFGhZSkQ&ab_channel=Mockaroo)
   * __relaX no permite más de 28 tuplas__
+
+---
+## Material ##
+* [Teorías](https://github.com/ssofiaavila/DBD--Informatica-UNLP/tree/main/Teor%C3%ADas)
+
+
