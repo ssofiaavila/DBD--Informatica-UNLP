@@ -18,3 +18,8 @@ Prácticas y material de diseño de bases de datos, cursada 2do semestre 2022- F
 ---
 ## Material ##
 * [Teorías](https://github.com/ssofiaavila/DBD--Informatica-UNLP/tree/main/Teor%C3%ADas)
+
+---
+## Probar álgebra relacional ##
+1) Crear datos para las tablas con [Mockaeroo](https://www.mockaroo.com/) y guardarlos como .csv
+2) En [relaX](https://dbis-uibk.github.io/relax/landing) en la parte de "Editor de grupos" declarar el nombre del grupo/ base de datos 'ayhj'
