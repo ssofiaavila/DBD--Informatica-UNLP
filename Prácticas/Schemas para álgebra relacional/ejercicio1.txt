@@ -1,0 +1,131 @@
+
+
+group: ejercicio1
+
+CLIENTE = {
+	idCliente:number, nombre:string, apellido:string, dni:number, telefono:number, direccion:string
+	1,Rodrigo,Hastwall,5378588,4941891,Sofia
+	2,Agneta,Marlon,44417084,36382677,Adriane
+	3,Arny,Mingardo,1388868,3744649,Andi
+	4,Arron,Lothlorien,22506113,8033467,Donn
+	5,Hal,Waber,46266881,15596764,Rosana
+	6,Alfreda,Mardall,882960,30264659,Bride
+	7,Constantine,Olliff,6487994,45485877,Grange
+	8,Gusta,Vieyra,4242468,9588084,Alisander
+	9,Kara-lynn,Hunting,30055590,5393614,Boy
+	10,Marlo,Floch,25768171,40151380,Christan
+	11,Clementina,Hayhurst,44631654,245557,Valli
+	12,Hurleigh,Huggins,16030951,5848656,Vail
+	13,Patience,Skate,8093441,4101982,Elias
+	14,Anica,Codi,48780453,31241192,Olly
+	15,Frannie,Avrahamy,15482778,26327389,Baxie
+	16,Cherilyn,Hedden,23064683,17545330,Judith
+	17,Phineas,Boden,29341583,30605207,Noellyn
+	18,Christy,Spens,39252153,21936552,Ritchie
+	19,Codie,MacGilmartin,287184,6483989,Trixy
+	20,Ruprecht,Andrejevic,46289059,10501200,Leda
+	21,Costa,Corroyer,24590117,33831386,Wilhelmina
+	22,Mill,Phoebe,49031355,4383000,Jaquenetta
+	23,Fonz,Pelos,1157192,37519638,Amory
+	24,Hazel,MacSorley,31861463,46858138,Florian
+	25,Robers,Boosey,15598550,27221214,Boony
+	26,Freida,Buckam,17210440,28612968,Rodolphe
+	27,Kinny,Hayton,48151568,3181997,Rosaline
+	28,Hyacinthe,Czadla,9917585,13304362,Annaliese
+}
+
+FACTURA={
+	nroTicket:number, total:number, fecha:string, idCliente:number
+	1,320948,'3/6/2019',89
+	2,451076,'6/22/2020',68
+	3,908584,'4/13/2022',91
+	4,329408,'10/27/2021',47
+	5,43555,'12/30/2018',17
+	6,108112,'4/13/2022',53
+	7,475922,'12/9/2019',1
+	8,469393,'3/28/2019',41
+	9,855531,'11/10/2019',51
+	10,717093,'7/7/2020',92
+	11,285725,'9/22/2022',86
+	12,220807,'11/23/2021',27
+	13,454041,'4/13/2021',93
+	14,971291,'6/25/2019',56
+	15,868387,'2/22/2019',3
+	16,548410,'7/26/2022',25
+	17,387095,'6/29/2021',10
+	18,893870,'1/27/2022',30
+	19,430562,'8/27/2020',4
+	20,984342,'12/15/2019',70
+	21,426080,'7/22/2019',70
+	22,736993,'5/31/2019',41
+	23,348340,'7/4/2022',88
+	24,978181,'7/23/2020',64
+	25,75261,'9/12/2020',66
+	26,131430,'6/21/2021',48
+	27,323419,'3/29/2021',82
+	28,357235,'5/2/2019',48
+}
+DETALLE={
+	nroTicket:number, idProducto:number, cantidad:number, preciounitario:number
+	86,850,595,900049
+	14,602,3557,306175
+	78,982,2887,312323
+	40,395,4525,940400
+	44,166,4413,661813
+	16,154,2376,787835
+	56,401,1054,986751
+	24,964,3840,163576
+	68,87,4453,724374
+	7,358,930,970458
+	35,404,4114,926384
+	83,526,662,287431
+	1,88,4684,378304
+	46,99,1480,498822
+	96,44,4244,661173
+	34,180,2134,342894
+	83,503,3334,243895
+	51,376,3990,23653
+	80,129,4036,523114
+	17,428,369,853658
+	11,522,2534,532626
+	87,769,2825,307964
+	19,771,549,906360
+	82,586,298,378209
+	6,155,3182,548619
+	89,766,24,555893
+	69,922,1101,976328
+	74,947,4632,278431
+}
+
+PRODUCTO={
+	idProducto:number, descripcion:string, precio:number, nombreP:string, stock:number
+	1,sadasdsadhsadhsakdhasjdkjsa,204529,Eldridge,838689
+	2,sadasdsadhsadhsakdhasjdkjsa,95552,Peadar,163757
+	3,sadasdsadhsadhsakdhasjdkjsa,49329,Iggy,567402
+	4,sadasdsadhsadhsakdhasjdkjsa,211963,Herold,288983
+	5,sadasdsadhsadhsakdhasjdkjsa,61006,Kailey,311581
+	6,sadasdsadhsadhsakdhasjdkjsa,712004,Alfreda,31772
+	7,sadasdsadhsadhsakdhasjdkjsa,790178,Emmalee,388773
+	8,sadasdsadhsadhsakdhasjdkjsa,613416,Agnella,462383
+	9,sadasdsadhsadhsakdhasjdkjsa,794379,Ariana,298642
+	10,sadasdsadhsadhsakdhasjdkjsa,373653,Field,61729
+	11,sadasdsadhsadhsakdhasjdkjsa,476163,Matthiew,863196
+	12,sadasdsadhsadhsakdhasjdkjsa,648970,Filmer,333468
+	13,sadasdsadhsadhsakdhasjdkjsa,899279,Odelia,370512
+	14,sadasdsadhsadhsakdhasjdkjsa,299379,Osmund,374075
+	15,sadasdsadhsadhsakdhasjdkjsa,609191,Petronille,809189
+	16,sadasdsadhsadhsakdhasjdkjsa,32928,Lane,403241
+	17,sadasdsadhsadhsakdhasjdkjsa,342831,Lisetta,531763
+	18,sadasdsadhsadhsakdhasjdkjsa,553982,Ingeberg,196502
+	19,sadasdsadhsadhsakdhasjdkjsa,141486,Andre,200629
+	20,sadasdsadhsadhsakdhasjdkjsa,516959,Sephira,425400
+	21,sadasdsadhsadhsakdhasjdkjsa,972289,Clarke,200303
+	22,sadasdsadhsadhsakdhasjdkjsa,397365,Antonie,579580
+	23,sadasdsadhsadhsakdhasjdkjsa,509608,Yehudi,910472
+	24,sadasdsadhsadhsakdhasjdkjsa,376345,Cristabel,799211
+	25,sadasdsadhsadhsakdhasjdkjsa,507919,Nefen,323945
+	26,sadasdsadhsadhsakdhasjdkjsa,39275,Christopher,851744
+	27,sadasdsadhsadhsakdhasjdkjsa,259934,Efren,325411
+
+	
+}
