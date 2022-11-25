@@ -28,6 +28,8 @@ Prácticas y material de diseño de bases de datos, cursada 2do semestre 2022- F
 
   [Acá un ejemplo más claro :zap: ](https://github.com/ssofiaavila/DBD--Informatica-UNLP/blob/main/Pr%C3%A1cticas/Schemas%20para%20%C3%A1lgebra%20relacional/ejercicio1.txt)
   
+  [__ALGUNAS BASES DE DATOS QUE HICE PARA LA PRÁCTICA 3__](https://github.com/ssofiaavila/DBD--Informatica-UNLP/tree/main/Pr%C3%A1cticas/Schemas%20para%20%C3%A1lgebra%20relacional)
+  
   __ACLARACIONES PARA SU IMPLEMENTACIÓN__
   * Los __datos declarados en relaX tienen que ser de tipo ```number``` o ```string```__. Los otros no supe cómo hacerlos funcionar por lo tanto a la hora de generar datos en Mockaroo declarar los datos de la tabla como ```number```, ```name```, ```sequence of characters```. En caso de que un dato tenga más de dos palabras, agregarle ```' '``` porque si no relaX lo toma como dos filas distitas. O sea,
     ```QuilmesOeste``` bien
