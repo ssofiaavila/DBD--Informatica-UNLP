@@ -30,3 +30,12 @@ Prácticas y material de diseño de bases de datos, cursada 2do semestre 2022- F
     /* salto a la proxima linea y pego los datos de cada .csv correspondiente a esa tabla, excepto los nombres para cada columna 
     } 
 ~~~
+
+  [Acá un ejemplo más claro :zap: ](https://github.com/ssofiaavila/DBD--Informatica-UNLP/blob/main/Pr%C3%A1cticas/Schemas%20para%20%C3%A1lgebra%20relacional/ejercicio1.txt)
+  
+  __ACLARACIONES PARA SU IMPLEMENTACIÓN__
+  * Los __datos declarados en relaX tienen que ser de tipo ```number``` o ```string```__. Los otros no supe cómo hacerlos funcionar por lo tanto a la hora de generar datos en Mockaroo declarar los datos de la tabla como ```number```, ```name```, ```sequence of characters```. En caso de que un dato tenga más de dos palabras, agregarle ```' '``` porque si no relaX lo toma como dos filas distitas. O sea,
+    ```QuilmesOeste``` bien
+    ```Quilmes Oeste``` mal, tendria que ser ```'Quilmes Oste'```
+  * __Mockaroo permite usar claves foráneas__, tutorial [acá](https://www.youtube.com/watch?v=S_oYFGhZSkQ&ab_channel=Mockaroo)
+  * __relaX no permite más de 28 tuplas__
