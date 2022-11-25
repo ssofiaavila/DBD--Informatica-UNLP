@@ -21,5 +21,12 @@ Prácticas y material de diseño de bases de datos, cursada 2do semestre 2022- F
 
 ---
 ## Probar álgebra relacional ##
-1) Crear datos para las tablas con [Mockaeroo](https://www.mockaroo.com/) y guardarlos como .csv
-2) En [relaX](https://dbis-uibk.github.io/relax/landing) en la parte de "Editor de grupos" declarar el nombre del grupo/ base de datos 'ayhj'
+1) Crear datos para las tablas con [Mockaroo](https://www.mockaroo.com/) y guardarlos como .csv
+2) En [relaX](https://dbis-uibk.github.io/relax/landing) en la parte de "Editor de grupos" declarar el nombre del grupo/ base de datos ```group: ejemplo``` y cada tabla se va a declarar de la siguiente manera  
+ 
+~~~ 
+    nombreDeTabla= {  
+    dato1: tipoDeDato, dato2: tipoDeDato 
+    /* salto a la proxima linea y pego los datos de cada .csv correspondiente a esa tabla, excepto los nombres para cada columna 
+    } 
+~~~
