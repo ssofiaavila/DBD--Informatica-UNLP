@@ -1,0 +1,21 @@
+/* 1.Listar nombre, apellido, DNI, teléfono y dirección de clientes con DNI superior a 22222222.
+*/
+
+(π CLIENTE.nombre, CLIENTE.apellido, CLIENTE.dni, CLIENTE.telefono, CLIENTE.direccion (σ CLIENTE.dni >22222222  (CLIENTE)))
+
+/* 2. Listar nombre, apellido, DNI, teléfono y dirección de clientes con DNI superior a 22222222 y que tengan
+facturas cuyo total no supere los $100000.*/
+
+facturasInferior=(π idCliente (σ (FACTURA.total ≤100000) (FACTURA)))
+(π CLIENTE.nombre, CLIENTE.apellido, CLIENTE.dni, CLIENTE.telefono, CLIENTE.direccion (σ CLIENTE.dni ≥22222222 (CLIENTE ⨝facturasInferior)))
+
+-- 3. Listar nombre, apellido, DNI, teléfono y dirección de --- clientes que realizaron compras durante 2020.
+
+
+π CLIENTE.nombre, CLIENTE.apellido, CLIENTE.dni, CLIENTE.telefono, CLIENTE.direccion (σ (FACTURA.fecha≥ '01/01/2020' ∧ FACTURA.fecha ≤ '31/31/2020') (CLIENTE ⨝ FACTURA))
+
+
+/*4. Listar nombre, apellido, DNI, teléfono y dirección de clientes que no realizaron compras durante 2020.*/
+en2020= (π CLIENTE.idCliente, CLIENTE,nombre, CLIENTE,apellido, CLIENTE.dni, CLIENTE.telefono, CLIENTE.direccion (σ FACTURA.fecha ≥ '01/01/2020' (CLIENTE ⨝ FACTURA)))
+
+π CLIENTE.nombre, CLIENTE.apellido, CLIENTE.dni (CLIENTE - en2020)
