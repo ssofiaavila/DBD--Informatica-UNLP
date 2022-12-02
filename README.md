@@ -31,9 +31,9 @@ Prácticas y material de diseño de bases de datos, cursada 2do semestre 2022- F
   [__ALGUNAS BASES DE DATOS QUE HICE PARA LA PRÁCTICA 3__](https://github.com/ssofiaavila/DBD--Informatica-UNLP/tree/main/Pr%C3%A1cticas/Schemas%20para%20%C3%A1lgebra%20relacional). Lo único que hay que hacer es en la parte de ```Editor de grupos``` pegar el archivo ```.txt```
   
   __ACLARACIONES PARA SU IMPLEMENTACIÓN__
-  * Los __datos declarados en relaX tienen que ser de tipo ```number``` o ```string```__. Los otros no supe cómo hacerlos funcionar por lo tanto a la hora de generar datos en Mockaroo declarar los datos de la tabla como ```number```, ```name```, ```sequence of characters```. En caso de que un dato tenga más de dos palabras, agregarle ```' '``` porque si no relaX lo toma como dos filas distitas. O sea,
+  * Los __datos declarados en relaX tienen que ser de tipo ```number``` o ```string```__. Los otros no supe cómo hacerlos funcionar por lo tanto a la hora de generar datos en Mockaroo declarar los datos de la tabla como ```number```, ```name```, ```sequence of characters```. En caso de que un dato tenga más de dos palabras, agregarle ```' '``` porque si no relaX lo toma como dos filas distintas. O sea,
     ```QuilmesOeste``` bien
-    ```Quilmes Oeste``` mal, tendria que ser ```'Quilmes Oste'```
+    ```Quilmes Oeste``` mal, tendría que ser ```'Quilmes Oeste'```
   * __Mockaroo permite usar claves foráneas__, tutorial [acá](https://www.youtube.com/watch?v=S_oYFGhZSkQ&ab_channel=Mockaroo)
   * __relaX no permite más de 28 tuplas__
 
