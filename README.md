@@ -13,6 +13,7 @@ Prácticas y material de diseño de bases de datos, cursada 2do semestre 2022- F
   
   </details>
 * [Práctica 3](https://github.com/ssofiaavila/DBD--Informatica-UNLP/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%203.pdf)
+* [Práctica 4](https://github.com/ssofiaavila/DBD--Informatica-UNLP/blob/main/Pr%C3%A1cticas/Pr%C3%A1ctica%204.pdf)
 
 ---
 ## Probar álgebra relacional ##
@@ -40,5 +41,20 @@ Prácticas y material de diseño de bases de datos, cursada 2do semestre 2022- F
 ---
 ## Material ##
 * [Teorías](https://github.com/ssofiaavila/DBD--Informatica-UNLP/tree/main/Teor%C3%ADas)
+* <details>
+  <summary> Apuntes + resumenes </summary>
+    
+    * [Preguntas teóricas](https://github.com/ssofiaavila/DBD--Informatica-UNLP/blob/main/Apuntes%20%2B%20resumenes/Preguntas%20te%C3%B3ricas.pdf)
+    * [Explicaciones prácticas](https://github.com/ssofiaavila/DBD--Informatica-UNLP/blob/main/Apuntes%20%2B%20resumenes/Explicaci%C3%B3n%20pr%C3%A1cticas.pdf)
+   </details>
+   
+ * <details>
+   <summary> Parciales</summary>
+   
+   * [Enunciado 1ra fecha 2022](https://github.com/ssofiaavila/DBD--Informatica-UNLP/blob/main/Parciales/Enunciado%201ra%20fecha%202022.pdf)
+   * [Enununciado 2da fecha 2022](https://github.com/ssofiaavila/DBD--Informatica-UNLP/blob/main/Parciales/Enunciado%202da%20fecha%202022.pdf)
+   * [Resolución 1ra fecha](https://github.com/ssofiaavila/DBD--Informatica-UNLP/blob/main/Parciales/Resoluci%C3%B3n%201ra%20fecha%202022.pdf)
+   * [Resolución 2da fecha](https://github.com/ssofiaavila/DBD--Informatica-UNLP/blob/main/Parciales/Resoluci%C3%B3n%202da%20fecha%202022.pdf)
+  </details>
 
 
